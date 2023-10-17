@@ -22,3 +22,11 @@ this is where our awesome flexible app helm chart is defined which will be used 
 ## platform-services
 
 if we we need some other K8s manifests for deploying kubevela or crossplane things ... don't really know :)
+
+# installation
+
+1. install argocd
+
+2. apply argocd-config manifests
+
+`kubectl apply -f argocd-config/* `
