@@ -21,7 +21,7 @@ spec:
         path: awesome-app-chart
         helm:
           valueFiles:
-          - $values/{{path}}/deployit.yaml
+          - $values/deployit.yaml
       - repoURL: https://github.com/jkleinlercher/just-one-yaml-deployment
         targetRevision: HEAD
         path: '{{path}}'
