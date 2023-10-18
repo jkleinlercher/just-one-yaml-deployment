@@ -1,4 +1,4 @@
 image:
   repository: httpd
   tag: 2.4.57
-replicaCount: 2
+replicaCount: 3
