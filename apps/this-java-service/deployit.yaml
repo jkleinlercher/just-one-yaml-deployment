@@ -1,4 +1,0 @@
-image:
-  repository: quay.io/wildfly/wildfly
-  tag: 29.0.1.Final-jdk11
-replicaCount: 1
