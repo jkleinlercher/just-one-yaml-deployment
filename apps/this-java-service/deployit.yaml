@@ -1,1 +1,4 @@
+image:
+  repository: open-liberty
+  tag: 23.0.0.9-kernel-slim-java17-openj9
 replicaCount: 2
