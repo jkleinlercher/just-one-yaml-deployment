@@ -1,3 +1,4 @@
+# just for https://github.com/argoproj/argo-cd/issues/16024
 apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
