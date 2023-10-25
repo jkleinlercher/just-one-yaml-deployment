@@ -11,6 +11,8 @@ e.g.
  - my-nginx-website/deployit.yaml
  - my-java-service/deployit.yaml
 
+in real scenarios those apps can be in different git projects, as long as the argocd applicationset finds the apps.
+
 ## argocd-config
 
 we will use argocd to deploy each app so put the necessary applications or applicationset definitions in this folder. those yamls will just get synced to the argocd namespace
