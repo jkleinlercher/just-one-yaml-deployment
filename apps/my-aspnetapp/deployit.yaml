@@ -2,3 +2,7 @@ image:
   repository: mcr.microsoft.com/dotnet/samples
   tag: aspnetapp
 replicaCount: 1
+
+containerPort: 80
+livenessProbePath: /app
+readinessProbePath: /app
