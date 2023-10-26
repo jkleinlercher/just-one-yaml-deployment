@@ -1,0 +1,4 @@
+image:
+  repository: mcr.microsoft.com/dotnet/samples:aspnetapp
+  tag: aspnetapp
+replicaCount: 1
