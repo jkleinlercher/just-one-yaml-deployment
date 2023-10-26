@@ -4,3 +4,11 @@ image:
 replicaCount: 1
 
 containerPort: 8080
+
+ingress:
+  enabled: true
+  hosts:
+    - host: aspnetapp-127-0-0-1.nip.io
+      paths:
+        - path: /
+          pathType: ImplementationSpecific
